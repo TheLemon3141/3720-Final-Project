@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="../public/blackJack.css">
+</head>
+
+<body onload="showCards()">
+    <script src="../public/blackjack.js"></script>
+    <h1>
+        ♥ ♠ Blackjack ♦ ♣
+    </h1>
+    <div id="Dealer">
+        <h3>
+            Dealer
+        </h3>
+        <p id="dealerCards">
+            ERROR: showCards
+        </p>
+    </div>
+    <div id="Player">
+        <h3>
+            Player
+        </h3>
+        <p id="playerCards">
+            ERROR: showCardshow
+        </p>
+    </div>
+    <div id="Actions">
+        <h3>
+            Actions
+        </h3>
+        <button type="button" onclick="startGame()">Start Game</button>
+        <button type="button" onclick="stand()">Stand</button>
+        <button type="button" onclick="hit()">Hit</button>
+
+        <h3 id="WinHeader"></h3>
+        <div id="winnerName"></div>
+        <div id="winnerScore"></div>
+
+
+        <p id="actionMessage"></p>
+    </div>
+</body>
+
+</html>
