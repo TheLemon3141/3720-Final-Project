@@ -25,20 +25,21 @@ All individuals then created merge request and had other members verify/review t
 Endpoint Links:
 
 To start the game we need to create the game first and the objects so press the below link to start a new game.
-* START: [http://localhost:8100/start]
+* START: [http://localhost:8080/start]
 
 Reveals the state of the game by showing both player 1's card and dealers cards and can be pressed after both go or at any point during the game to see what the updated version of the game looks like and to restart all you have to do is go back and press the start link.
-* GAME_STATE: [http://localhost:8100/game_state]
+* GAME_STATE: [http://localhost:8080/game_state]
 
 Reveals what the dealer has done and goes over his turn by continuing to hit until his score is over 17 then he will stand and to see his updated hand all we have to do is go back to game_state link. 
-* DEALER: [http://localhost:8100/dealer]
+* DEALER: [http://localhost:8080/dealer]
 
 Allows player 1 to hit which adds card to player 1's hand and increases his score but could lead to busting if done too many times.
-* PLAYER 1 HIT: [http://localhost:8100/hit]
+* PLAYER 1 HIT: [http://localhost:8080/hit]
 
 Allows player 1 to end his turn by not hitting anymore(picking up anymore cards).
-* PLAYER 1 STAND: [http://localhost:8100/stand]
+* PLAYER 1 STAND: [http://localhost:8080/stand]
 
 After running the game and going over each of the above steps to determine the winner after both dealer and player 1 go this tells us the winner. 
-* WINNERS: [http://localhost:8100/getWinners]
+* WINNERS: [http://localhost:8080/getWinners]
+
 
